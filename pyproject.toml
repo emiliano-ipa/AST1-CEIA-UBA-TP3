@@ -1,0 +1,28 @@
+[project]
+name = "ast1-ceia-uba-tp3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Emiliano Iparraguirre",email = "93624728+emiliano-ipa@users.noreply.github.com"}
+]
+package-mode = false
+readme = "README.md"
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^2.2"
+numpy = "1.26.4"
+scipy = "1.10.1"
+matplotlib = "^3.8"
+scikit-learn = "^1.4"
+statsmodels = "^0.14"
+pmdarima = "^2.0.4"
+openpyxl = "^3.1.5"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0"
+ipykernel = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
